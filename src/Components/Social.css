@@ -1,0 +1,43 @@
+.Social{
+  height: 50px;
+  width: 150px;
+}
+
+#tweet-div{
+  width: 115px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#tumblr-logo{
+  height: 51px;
+  width: 50px;
+}
+
+#tumblr-logo:focus { 
+  outline: none !important;
+}
+
+#tumblr-logo:hover { 
+  outline: none !important;
+  border-color: #222;
+  border: #222 solid 1px;
+  box-shadow: 0 0 5px black;
+}
+
+#twitter-logo{
+  height: 50px;
+  width: 50px;
+}
+
+#twitter-logo:focus { 
+  outline: none !important;
+}
+
+#twitter-logo:hover { 
+  outline: none !important;
+  border-color: #222;
+  border: #222 solid 1px;
+  box-shadow: 0 0 5px #222;
+}

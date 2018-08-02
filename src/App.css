@@ -1,0 +1,52 @@
+.animated {
+  transition-property: background-color;
+  transition-duration: 3s;
+}
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App-header {
+  background-color: #222;
+  width: 100vw;
+  height: 60px;
+  padding: 20px 0 20px 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-title {
+  font-size: 2em;
+  color: white;
+}
+
+.App-footer{
+  background-color: #222;
+  position: relative;
+  width: 100vw;
+  height: 60px;
+  padding: 20px 0 20px 0;
+  color: white;
+  font-size: 1em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+

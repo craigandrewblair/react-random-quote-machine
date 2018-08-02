@@ -1,0 +1,45 @@
+.Machine{
+  height: 300px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+#machine-top{
+  height: 500px;
+  width: 400px;
+  background-color:black;
+  display: flex;
+}
+#machine-bottom{
+  height: 200px;
+  width: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#new-quote{
+  width: 100px;
+  height: 30px;
+}
+#new-quote{
+  width: 100px;
+  height: 54px;
+  background-color:rgb(34,193,195);
+  cursor: pointer;
+}
+#new-btn:focus { 
+  outline: none !important;
+}
+#new-btn:hover { 
+  outline: none !important;
+  border-color: #222;
+  box-shadow: 0 0 5px #222;
+}
+#new-btn:hover{
+  opacity: 0.95;
+}
+#new-btn-img{
+  height: 43px;
+}
