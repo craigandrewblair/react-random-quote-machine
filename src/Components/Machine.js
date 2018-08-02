@@ -41,7 +41,7 @@ class Machine extends Component {
   async asyncCall() {
     console.log('Awaiting Response...');
     this.setState({
-      result: await this.getJSON('https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=15&_json');
+      result: await this.getJSON('https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=15&_json')
     });
     console.log(this.state.result);
   }
